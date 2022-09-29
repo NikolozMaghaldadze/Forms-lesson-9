@@ -11,3 +11,50 @@
 }
 
 /* End of header Responsive */
+
+/*Start of input types Responsive */
+
+@media(max-width:1200px){
+    .input-1{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:480px){
+    .b-text{
+        font-size: 14px;
+    }
+}
+
+/*End of input types Responsive */
+
+/* start of mail elements Responsive */
+
+@media(max-width:1400px){
+    .last-element{
+        margin-top:210px;
+    }
+    .info-block{
+        margin-top:35px;
+    }
+}
+
+@media(max-width:920px){
+    .last-element{
+        margin-top:420px;
+    }
+}
+
+@media(max-width:720px){
+    .b-text-1{
+        font-size: 15px;
+    }
+    .mail-link-1{
+        font-size: 10px;
+    }
+    .mail-link{
+        font-size: 10px;
+    }
+}
+
+/* end of mail elements Responsive */
