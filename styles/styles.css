@@ -53,6 +53,7 @@
 
 .list-link:hover{
     color: #5863F8;
+    transition: 0.5s;
 }
 
 .burger-bar{
@@ -111,6 +112,7 @@
 
 .bottom-text:hover{
     color: #5863F8;
+    transition: 0.5s;
 }
 .line{
     margin-left:15px;
@@ -127,6 +129,7 @@
 
 .bottom-text-2:hover{
     color: #5863F8;
+    transition: 0.5s;
 }
     /* End of Bot-block */
 
@@ -286,9 +289,16 @@ iframe{
     border-radius: 35px;
 }
 
+.mail-link:hover , .mail-link-1:hover , .mail-link-2:hover{
+    text-decoration: underline;
+}
+
 .button:hover{
     box-shadow: 5px  5px 5px #B1B1B1;
+    background-color: #626cee;
+    color: #fff;
     transition: 0.4s;
+    cursor: pointer;
 }
 /* end of inputs */
 
