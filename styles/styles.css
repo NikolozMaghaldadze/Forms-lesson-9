@@ -173,7 +173,8 @@ iframe{
 }
 
 .b-text{
-    width: 378px;
+    max-width: 378px;
+    width: 100%;
     height: 115px;
     font-size: 42px;
     font-weight:bold;
@@ -213,8 +214,6 @@ iframe{
     outline: none;
 }
 .text-description::placeholder{
-    padding-top: 20px;
-    padding-left: 20px;
     color: #CECECE;
     font-size: 13px;
     font-weight:300;
@@ -227,6 +226,8 @@ iframe{
     border: solid 1px #E8E8E8;
     width: 100%;
     height: 288px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .input-2{
@@ -282,8 +283,13 @@ iframe{
     font-weight:300;
     font-family: 'Poppins', sans-serif;
     background-color: #5863F8;
+    border-radius: 35px;
 }
 
+.button:hover{
+    box-shadow: 5px  5px 5px #B1B1B1;
+    transition: 0.4s;
+}
 /* end of inputs */
 
 /* start of mail elements */
@@ -340,7 +346,14 @@ iframe{
     font-weight: 500;
     margin-bottom: 5px;
 }
-
+.mail-link-2{
+    font-size: 14px;
+    color:#B1B1B1;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
 .last-element{
     max-width:574px;
     width: 100%;
@@ -385,10 +398,181 @@ iframe{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: -4px;
 }
 
+.RS-image{
+    max-width: 352px;
+    width: 100%;
+    height: 352px;
+}
 /* end of second section */
 
 /* start of footer */
+.footer-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
 
+.blocks-wrapper{
+    background-color: #000;
+    max-width: 1026px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+
+.info-hotels{
+    max-width: 260px;
+    width: 100%;
+    height:191px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-align: center;
+}
+
+.title-description{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+.little-description{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #B1B1B1;
+}
+
+.socials-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-align: center;
+}
+.links-block{
+    max-width:103px ;
+    width: 100%;
+    height:155px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000;
+}
+
+
+.title-description-1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+.combiner-p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color:#5863F8;
+    cursor: pointer;
+}
+
+.combiner-p:hover{
+    color: #FFF;
+    font-weight: 900;
+}
+
+.privacy-block{
+    max-width: 78px;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000;
+}
+
+.contact-block{
+    max-width: 198px;
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000;
+}
+
+.mail-things{
+    display: flex;
+    flex-direction: row; 
+}
+.envelope{
+    color: #5863F8;
+    margin-right: 10px;
+}
+.phone{
+    color: #5863F8;
+    margin-right: 10px;
+}
+
+.location-1{
+    color: #5863F8;
+    margin-right: 10px;
+}
+.mail-link-1{
+    cursor: pointer;
+}
+
+.mail-link-1:hover{
+    color: #FFF;
+}
+
+.deco-p{
+    color: #B1B1B1;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line-2{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.Marian{
+    color: #5863F8;
+}
+.idk-link{
+    color: #5863F8;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.bottom-wrapper{
+    background-color: #000;
+    max-width: 1026px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0 auto;
+}
 /* end of footer */
