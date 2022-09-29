@@ -1,0 +1,13 @@
+/* Responsive of header */
+
+@media(max-width:1090px){
+    .nav-ul{
+        display: none;
+    }
+
+    .burger-bar{
+        display: block;
+    }
+}
+
+/* End of header Responsive */

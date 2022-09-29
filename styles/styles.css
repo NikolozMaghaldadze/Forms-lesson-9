@@ -1,0 +1,141 @@
+                    /* Styling header */
+
+.header-container{
+    background-image: url(../images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.jpg);
+    background-image: url(../images/Group\ 68.jpg);
+    background-size: 100% 324px;
+    Background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:324px;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+
+        /*Start of Gamaertianebeli-block */
+.gamaertianebeli-1{
+    width: 80%;
+    height: 324px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+        /*End of Gamaertianebeli-block */
+
+    /*Start of Top Block */
+
+.top-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height:20px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.title-site{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: #5863F8;
+}
+
+.burger-bar{
+    font-size: 30px;
+    color: #FFF;
+    display: none;
+}
+
+a{
+    margin-right: 49px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight:800;
+    font-family: 'Poppins', sans-serif;
+}
+
+        /*End of Top Block */
+
+    /* Start of Mid-Block */
+
+.mid-block{
+    display:flex;
+    width: 80%;
+    height:auto;
+    margin: 0 auto;
+}
+.mid-title{
+    font-size: 42px;
+    color: #FFF;
+    font-weight:bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+        /* End of Mid-Block */
+
+
+    /* Start of Bot-Block */
+
+.bot-block{
+    width: 80%;
+    height:auto;
+    display:flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.bottom-text{
+    color: #FFF;
+    font-size: 12px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.bottom-text:hover{
+    color: #5863F8;
+}
+.line{
+    margin-left:15px;
+}
+
+.bottom-text-2{
+    color: #FFF;
+    font-size: 12px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+    margin-left:15px;
+    cursor: pointer;
+}
+
+.bottom-text-2:hover{
+    color: #5863F8;
+}
+    /* End of Bot-block */
+
+/* End of Header */
+
+body{
+    margin-top:324px;
+}
+
+.top-section{
+
+}
